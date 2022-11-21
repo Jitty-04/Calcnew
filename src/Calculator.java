@@ -22,6 +22,11 @@ public class Calculator {
                 System.out.println("Difference=" + e);
                 break;
 
+            case 3:
+                double f = a * b;
+                System.out.println("Product=" + f);
+                break;
+
         }
     }
 }
