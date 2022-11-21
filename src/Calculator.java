@@ -30,6 +30,10 @@ public class Calculator {
                 double h = a / b;
                 System.out.println("Division=" + h);
                 break;
+            case 5:
+                System.exit(0);
+                break;
+            default:System.out.println("invalid option");
 
         }
     }
