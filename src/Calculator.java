@@ -12,6 +12,11 @@ public class Calculator {
         System.out.println("4-Division");
         System.out.println("5-Exit");
         int c = sc.nextInt();
+        switch (c) {
+            case 1:
+                double d = a + b;
+                System.out.println("Sum=" + d);
+                break;
 
     }
 }
