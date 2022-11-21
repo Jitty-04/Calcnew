@@ -37,12 +37,20 @@ public class Calculator {
                 System.out.println("Product=" + f);
                 break;
             case 4:
-                System.out.println("Enter the first number");
-                a = sc.nextInt();
-                System.out.println("Enter second number");
-                b = sc.nextInt();
-                double h = a / b;
-                System.out.println("Division=" + h);
+                try {
+                    System.out.println("Enter the first number");
+                    a = sc.nextInt();
+                    System.out.println("Enter second number");
+                    b = sc.nextInt();
+                    double h = a / b;
+                    System.out.println("Division=" + h);
+                }
+                catch(ArithmeticException e1){
+                    System.out.println("Division by zero");
+                }
+                finally {
+                    System.out.println("reached");
+                }
                 break;
             case 5:
                 System.exit(0);
