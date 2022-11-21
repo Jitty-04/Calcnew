@@ -26,6 +26,10 @@ public class Calculator {
                 double f = a * b;
                 System.out.println("Product=" + f);
                 break;
+            case 4:
+                double h = a / b;
+                System.out.println("Division=" + h);
+                break;
 
         }
     }
