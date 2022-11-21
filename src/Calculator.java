@@ -17,6 +17,11 @@ public class Calculator {
                 double d = a + b;
                 System.out.println("Sum=" + d);
                 break;
+            case 2:
+                double e = a - b;
+                System.out.println("Difference=" + e);
+                break;
 
+        }
     }
 }
